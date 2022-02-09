@@ -96,13 +96,13 @@
     width: 36px;
     height: 36px;
     color: #71717A;
-    transition: all 0.5s linear;
+    transition: width 0.5s linear;
 }
 
 .menu__form_input-max {
     width: 294px;
     padding-left: 46px;
-    transition: all 0.5s linear;
+    transition: width 0.5s linear;
 }
 
 .menu__form_input-max::placeholder {
@@ -477,5 +477,5 @@
 }
 
 input::placeholder {
-    margin-left: 20px;
-}
+    margin-left: 22px;
+   }
