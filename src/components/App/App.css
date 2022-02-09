@@ -1,0 +1,12 @@
+.page {
+    font-family: 'Inter', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #18181B;
+}
+
+.page__light {
+    background-color: #ffffff;
+}
