@@ -37,7 +37,9 @@ function Menu({ menuButton, isBurger, logo, avatar, isChecked, logo_light }) {
               <li className="mainMenu__icons">
                 <FiInbox className="mainMenu__icons_element" />
                 <p className="mainMenu__heading">Входящие</p>
-                <span className="mainMenu__icons_reminder"></span>
+                <div className="mainMenu__icons_reminder">
+                  <p className="mainMenu__reminder">12</p>
+                </div>
               </li>
               <li className="mainMenu__icons">
                 <FiList className="mainMenu__icons_element" />
@@ -121,7 +123,7 @@ function Menu({ menuButton, isBurger, logo, avatar, isChecked, logo_light }) {
                 <FiInbox className="mainMenu__icons_element mainMenu__icons_element-max" />
                 <p className={`mainMenu__heading mainMenu__heading_max ${!isChecked ? 'mainMenu__heading_max-light' : ''}`}>Входящие</p>
                 <div className="mainMenu__icons_reminder mainMenu__icons_reminder-max">
-                  <p className="mainMenu__reminder">12</p>
+                  <p className="mainMenu__reminder mainMenu__reminder-max">12</p>
                 </div>
               </li>
               <li className="mainMenu__icons mainMenu__icons-max">
