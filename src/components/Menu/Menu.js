@@ -13,9 +13,9 @@ import {
 
 function Menu({ menuButton, isBurger, logo, avatar, isChecked, logo_light }) {
   return (
-    <div className={`page ${!isChecked ? 'page__light' : ''}`}>
+    <div className="page">
       {!isBurger ? (
-        <>
+        <div className={`menuContainer ${!isChecked ? 'menuContainer__light' : ''}`}>
           <div className={`header ${!isChecked ? 'header__light' : ''}`}>
             <button onClick={menuButton} className="header__menuButton">
               <span></span>
@@ -89,9 +89,9 @@ function Menu({ menuButton, isBurger, logo, avatar, isChecked, logo_light }) {
               </div>
             </div>
           </div>
-        </>
+        </div>
       ) : (
-        <>
+        <div className={`menuContainer menuContainer_max ${!isChecked ? 'menuContainer__light' : ''}`}>
           <div className={`header header__max ${!isChecked ? 'header__light' : ''}`}>
             <button onClick={menuButton} className="header__menuButton">
               <span></span>
@@ -175,7 +175,7 @@ function Menu({ menuButton, isBurger, logo, avatar, isChecked, logo_light }) {
               <FiMoreVertical className="mainMenu__icons_element footer__icon_more" />
             </div>
           </div>
-        </>
+        </div>
       )}
     </div>
   );

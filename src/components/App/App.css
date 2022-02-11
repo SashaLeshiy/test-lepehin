@@ -4,9 +4,25 @@
     padding: 0;
     min-width: 320px;
     min-height: 100vh;
-    background-color: #18181B;
+    /* background-color: #18181B; */
+    background-color: #b2b2b2;
 }
 
 .page__light {
+    background-color: #ffffff;
+}
+
+.menuContainer {
+    max-width: 98px;
+    background-color: #18181b;
+    transition: all 0.5s linear;
+}
+
+.menuContainer_max {
+    max-width: 342px;
+    transition: all 0.5s linear;
+}
+
+.menuContainer__light {
     background-color: #ffffff;
 }

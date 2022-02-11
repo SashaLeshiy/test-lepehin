@@ -141,7 +141,7 @@
     height: 1px;
     background: #27272A;
     margin-top: 16px;
-    transition: width 0.3s linear;
+    transition: width 0.5s linear;
 }
 
 .mainMenu__max {
@@ -154,7 +154,7 @@
     height: 1px;
     background: #27272A;
     margin-top: 16px;
-    transition: width 0.3s linear;
+    transition: width 0.5s linear;
 }
 
 .mainMenu__heading {
